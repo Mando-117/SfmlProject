@@ -1,0 +1,14 @@
+# Ignore CLion build output
+cmake-build-*/
+
+# Ignore CMake temporary files
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+
+# Ignore CLion project settings (optional)
+.idea/
+
+# macOS system files
+.DS_Store
