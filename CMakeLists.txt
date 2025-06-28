@@ -6,6 +6,8 @@ set(CMAKE_PREFIX_PATH "/opt/homebrew/opt/sfml")
 
 find_package(SFML 3.0 REQUIRED COMPONENTS Window Graphics)
 
-add_executable(SFMLProject main.cpp)
+add_executable(SFMLProject main.cpp
+        EntityShapes.h
+)
 
 target_link_libraries(SFMLProject SFML::Window SFML::Graphics)
